@@ -35,6 +35,29 @@
 #include <memory>
 #include <functional>
 
+
+// Base Data Types 헤더
+#include "BaseDataTypesNFunctions.h"
+#include "cObject.h"
+#include "BoundObejct.h"
+#include "cMTLnTEX.h"
+
+// Static Manager 헤더
+#include "cTimeManager.h"
+#include "cKeyManager.h"
+#include "cDeviceManager.h"
+//
+#include "cTextureManager.h"
+#include "cShaderManager.h"
+#include "cFontManager.h"
+//
+//#include "cGameDataManager.h"
+#include "cSceneManager.h"
+#include "cUIManager.h"
+
+
+
+
 #pragma region 윈도우 관련 상수
 extern HWND g_hWnd;
 const DWORD WIN_START_POS_X = 0;

@@ -13,18 +13,12 @@
     <Filter Include="GameFramework\3. Control">
       <UniqueIdentifier>{52fa8b1a-5101-4c11-bbd6-8f272422d5c0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="GameFramework\4. Objects">
-      <UniqueIdentifier>{f43bd17f-e16b-4de0-8eef-47d3eb518370}</UniqueIdentifier>
-    </Filter>
     <Filter Include="WinSetting">
       <UniqueIdentifier>{37dccb30-57c3-42c3-ab85-79c9d579560b}</UniqueIdentifier>
     </Filter>
     <Filter Include="WinSetting\리소스 파일">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="GameFramework\2. Managers\DeviceManager">
-      <UniqueIdentifier>{f2169f58-0336-4d78-b29a-44c79e50ff90}</UniqueIdentifier>
     </Filter>
     <Filter Include="Scenes">
       <UniqueIdentifier>{8caeac55-0e46-4bc8-8a17-dce829af6ee7}</UniqueIdentifier>
@@ -37,6 +31,81 @@
     </Filter>
     <Filter Include="Scenes\PlayScene">
       <UniqueIdentifier>{50cb81d0-660f-47a6-952f-a76264d77ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\1. DataTypes\BoundObject">
+      <UniqueIdentifier>{3d46e1ac-bd01-433f-8c03-5c67f1a4485d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\1. DataTypes\Object">
+      <UniqueIdentifier>{bc308c5a-49ab-440a-affb-8d1030de4de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\1. DataTypes\MTLnTEX">
+      <UniqueIdentifier>{ef165ec5-9ed6-4077-a1ad-c7e1728efece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\1. DataTypes\%2a Base">
+      <UniqueIdentifier>{2cb85cf7-b3ed-4416-bf97-7d9536930e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\BaseManager">
+      <UniqueIdentifier>{4cf971c7-9b3d-4cac-8316-6392a9f35ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\BaseManager\TimeManager">
+      <UniqueIdentifier>{b6424cb6-6d97-4268-8beb-8d33f6681467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\BaseManager\KeyManager">
+      <UniqueIdentifier>{4d426469-511d-41c1-bc55-352d3ac457b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\BaseManager\DeviceManager">
+      <UniqueIdentifier>{f2169f58-0336-4d78-b29a-44c79e50ff90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\ResourceManager">
+      <UniqueIdentifier>{1251c375-0efd-405c-84c7-6abf39148279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\ResourceManager\FontManager">
+      <UniqueIdentifier>{f210e7e3-99f7-4841-8a0e-1fff398fc8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\ResourceManager\TextureManager">
+      <UniqueIdentifier>{bdd5521b-ad38-4e98-8762-9eeb17574ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\ResourceManager\ShaderManager">
+      <UniqueIdentifier>{c96a2ce0-4e20-44ef-9dbe-053ed6ca2bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\GameManager">
+      <UniqueIdentifier>{b5879b99-ffd4-4324-a0fa-9377c4df3fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\BaseManager\DataManager">
+      <UniqueIdentifier>{83b098c2-9ac5-4173-9f25-a0ca7f76ce27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\GameManager\UIManager">
+      <UniqueIdentifier>{54d0376b-b3e6-48b1-975b-1682ff8ab8ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\GameManager\SceneManager">
+      <UniqueIdentifier>{520e20bf-6c07-453d-b467-7430fdc8b698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\GameManager\UIManager\%2a Base">
+      <UniqueIdentifier>{824fa051-6f2c-41a0-9d86-debe9a57af71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\GameManager\UIManager\Button">
+      <UniqueIdentifier>{0431ea2b-dcab-4200-8a10-be25bf21bd97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\GameManager\UIManager\ImageView">
+      <UniqueIdentifier>{0f67bf8d-ed00-4f91-9e74-993192e3638e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\GameManager\UIManager\TextView">
+      <UniqueIdentifier>{1b27d673-aa77-4ab2-990a-4750bbe43fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\3. Control\Camera">
+      <UniqueIdentifier>{a8a91f3c-2327-4564-aaff-e4f795e28b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\TestScene">
+      <UniqueIdentifier>{c7757c07-8c92-4484-956f-48c1dce99cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\4. GameObjects">
+      <UniqueIdentifier>{f43bd17f-e16b-4de0-8eef-47d3eb518370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\4. GameObjects\SurfaceObject">
+      <UniqueIdentifier>{e5ee8b9c-af3a-45a3-bb90-9b63c5d62dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\4. GameObjects\%2a Base">
+      <UniqueIdentifier>{ab34631a-2bbf-421d-827b-4def52d12535}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -53,9 +122,76 @@
       <Filter>Scenes</Filter>
     </ClInclude>
     <ClInclude Include="cDeviceManager.h">
-      <Filter>GameFramework\2. Managers\DeviceManager</Filter>
+      <Filter>GameFramework\2. Managers\BaseManager\DeviceManager</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="BoundObejct.h">
+      <Filter>GameFramework\1. DataTypes\BoundObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>GameFramework\1. DataTypes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cMTLnTEX.h">
+      <Filter>GameFramework\1. DataTypes\MTLnTEX</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDataTypesNFunctions.h">
+      <Filter>GameFramework\1. DataTypes\%2a Base</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyManager.h">
+      <Filter>GameFramework\2. Managers\BaseManager\KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeManager.h">
+      <Filter>GameFramework\2. Managers\BaseManager\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cFontManager.h">
+      <Filter>GameFramework\2. Managers\ResourceManager\FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>GameFramework\2. Managers\ResourceManager\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureManager.h">
+      <Filter>GameFramework\2. Managers\ResourceManager\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cDataManager.h">
+      <Filter>GameFramework\2. Managers\BaseManager\DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>GameFramework\2. Managers\GameManager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIManager.h">
+      <Filter>GameFramework\2. Managers\GameManager\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cUITextView.h">
+      <Filter>GameFramework\2. Managers\GameManager\UIManager\TextView</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIButton.h">
+      <Filter>GameFramework\2. Managers\GameManager\UIManager\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIImageView.h">
+      <Filter>GameFramework\2. Managers\GameManager\UIManager\ImageView</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIObject.h">
+      <Filter>GameFramework\2. Managers\GameManager\UIManager\%2a Base</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>GameFramework\3. Control\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrameworkTest.h">
+      <Filter>Scenes\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cMapCreateScene.h">
+      <Filter>Scenes\MapCreateScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayScene.h">
+      <Filter>Scenes\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cTitleScene.h">
+      <Filter>Scenes\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObject.h">
+      <Filter>GameFramework\4. GameObjects\%2a Base</Filter>
+    </ClInclude>
+    <ClInclude Include="cSurfaceObject.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -68,8 +204,75 @@
       <Filter>Scenes</Filter>
     </ClCompile>
     <ClCompile Include="cDeviceManager.cpp">
-      <Filter>GameFramework\2. Managers\DeviceManager</Filter>
+      <Filter>GameFramework\2. Managers\BaseManager\DeviceManager</Filter>
     </ClCompile>
+    <ClCompile Include="BoundObejct.cpp">
+      <Filter>GameFramework\1. DataTypes\BoundObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>GameFramework\1. DataTypes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cMTLnTEX.cpp">
+      <Filter>GameFramework\1. DataTypes\MTLnTEX</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDataTypesNFunctions.cpp">
+      <Filter>GameFramework\1. DataTypes\%2a Base</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyManager.cpp">
+      <Filter>GameFramework\2. Managers\BaseManager\KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeManager.cpp">
+      <Filter>GameFramework\2. Managers\BaseManager\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cFontManager.cpp">
+      <Filter>GameFramework\2. Managers\ResourceManager\FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>GameFramework\2. Managers\ResourceManager\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureManager.cpp">
+      <Filter>GameFramework\2. Managers\ResourceManager\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cDataManager.cpp">
+      <Filter>GameFramework\2. Managers\BaseManager\DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>GameFramework\2. Managers\GameManager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIManager.cpp">
+      <Filter>GameFramework\2. Managers\GameManager\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cUITextView.cpp">
+      <Filter>GameFramework\2. Managers\GameManager\UIManager\TextView</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIButton.cpp">
+      <Filter>GameFramework\2. Managers\GameManager\UIManager\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIImageView.cpp">
+      <Filter>GameFramework\2. Managers\GameManager\UIManager\ImageView</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIObject.cpp">
+      <Filter>GameFramework\2. Managers\GameManager\UIManager\%2a Base</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>GameFramework\3. Control\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrameworkTest.cpp">
+      <Filter>Scenes\TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cMapCreateScene.cpp">
+      <Filter>Scenes\MapCreateScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayScene.cpp">
+      <Filter>Scenes\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cTitleScene.cpp">
+      <Filter>Scenes\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObject.cpp">
+      <Filter>GameFramework\4. GameObjects\%2a Base</Filter>
+    </ClCompile>
+    <ClCompile Include="cSurfaceObject.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="WildCraft.rc">
