@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameFramework">
+      <UniqueIdentifier>{b903ed3f-f963-421f-bc0c-dcb88ee5db10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\1. DataTypes">
+      <UniqueIdentifier>{a25ec8b4-0bed-4bdc-bed9-55135b5c27b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers">
+      <UniqueIdentifier>{0ad37d49-5b7e-4f39-8a0b-c9e36c5675ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\3. Control">
+      <UniqueIdentifier>{52fa8b1a-5101-4c11-bbd6-8f272422d5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\4. Objects">
+      <UniqueIdentifier>{f43bd17f-e16b-4de0-8eef-47d3eb518370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinSetting">
+      <UniqueIdentifier>{37dccb30-57c3-42c3-ab85-79c9d579560b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinSetting\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\DeviceManager">
+      <UniqueIdentifier>{f2169f58-0336-4d78-b29a-44c79e50ff90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{8caeac55-0e46-4bc8-8a17-dce829af6ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\TitleScene">
+      <UniqueIdentifier>{d7502208-a57d-4f87-8102-b374c07943dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MapCreateScene">
+      <UniqueIdentifier>{47b358b9-ab54-42f0-8fb4-6e935811ae8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\PlayScene">
+      <UniqueIdentifier>{50cb81d0-660f-47a6-952f-a76264d77ead}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>WinSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>WinSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="WildCraft.h">
+      <Filter>WinSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cDeviceManager.h">
+      <Filter>GameFramework\2. Managers\DeviceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>WinSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="WildCraft.cpp">
+      <Filter>WinSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cDeviceManager.cpp">
+      <Filter>GameFramework\2. Managers\DeviceManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WildCraft.rc">
+      <Filter>WinSetting\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>WinSetting\리소스 파일</Filter>
+    </Image>
+    <Image Include="WildCraft.ico">
+      <Filter>WinSetting\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>WinSetting</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
