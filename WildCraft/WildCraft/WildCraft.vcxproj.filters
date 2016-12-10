@@ -203,8 +203,15 @@
     <ClInclude Include="cGrid.h">
       <Filter>GameFramework\4. GameObjects\Grid</Filter>
     </ClInclude>
-    <ClInclude Include="cStaticObejct.h" />
-    <ClInclude Include="cStaticObjectManager.h" />
+    <ClInclude Include="cStaticObjectManager.h">
+      <Filter>GameFramework\4. GameObjects\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cStaticObject.h">
+      <Filter>GameFramework\4. GameObjects\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJTOK.h">
+      <Filter>GameFramework\4. GameObjects\StaticObject</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -291,8 +298,12 @@
     <ClCompile Include="cGrid.cpp">
       <Filter>GameFramework\4. GameObjects\Grid</Filter>
     </ClCompile>
-    <ClCompile Include="cStaticObejct.cpp" />
-    <ClCompile Include="cStaticObjectManager.cpp" />
+    <ClCompile Include="cStaticObjectManager.cpp">
+      <Filter>GameFramework\4. GameObjects\StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cStaticObject.cpp">
+      <Filter>GameFramework\4. GameObjects\StaticObject</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="WildCraft.rc">

@@ -967,7 +967,7 @@
       <RmRegistryBranch NAME="Effect Workspace.ShaderNormal" API="" XML_VERSION="RenderMonkey 1.71">
        <RmRegistryBranch NAME="Disassembly" API="" XML_VERSION="RenderMonkey 1.71"/>
        <RmStringVariable NAME="Editing Shader" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-Vertex Shader]]></RmTextDataBlock></RmStringVariable>
+Pixel Shader]]></RmTextDataBlock></RmStringVariable>
        <RmStringVariable NAME="Editing Pass" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 Pass 0]]></RmTextDataBlock></RmStringVariable>
        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -998,7 +998,7 @@ Pass 0]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-10/12/2016 9:43:37]]></RmTextDataBlock></RmStringVariable>
+10/12/2016 16:55:52]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
@@ -1009,7 +1009,7 @@ C:\Users\oh\Desktop\WildCraft\WildCraft\WildCraft\WildCraft\Shader\]]></RmTextDa
    </RmRegistryBranch>
   </RmRegistryBranch>
   <RmDirectXEffect NAME="ShaderNormal" API="D3D" ACTIVE_CAMERA="">
-   <RmMatrixVariable NAME="matViewProjection" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="ViewProjection" VALUE_0="0.679577" VALUE_1="2.120479" VALUE_2="-0.344893" VALUE_3="0.000003" VALUE_4="-1.856620" VALUE_5="0.808777" VALUE_6="1.314256" VALUE_7="0.000070" VALUE_8="0.564143" VALUE_9="-0.046519" VALUE_10="0.825580" VALUE_11="199.199265" VALUE_12="0.563579" VALUE_13="-0.046472" VALUE_14="0.824754" VALUE_15="200.000061"/>
+   <RmMatrixVariable NAME="matViewProjection" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="ViewProjection" VALUE_0="1.363866" VALUE_1="1.040861" VALUE_2="1.460714" VALUE_3="0.000000" VALUE_4="-1.918484" VALUE_5="0.732211" VALUE_6="1.269533" VALUE_7="-0.000046" VALUE_8="0.046345" VALUE_9="-0.834279" VALUE_10="0.551210" VALUE_11="199.199219" VALUE_12="0.046298" VALUE_13="-0.833445" VALUE_14="0.550659" VALUE_15="200.000031"/>
    <RmMatrixVariable NAME="matWorld" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="World" VALUE_0="1.000000" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="0.000000" VALUE_4="0.000000" VALUE_5="1.000000" VALUE_6="0.000000" VALUE_7="0.000000" VALUE_8="0.000000" VALUE_9="0.000000" VALUE_10="1.000000" VALUE_11="0.000000" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="0.000000" VALUE_15="1.000000"/>
    <RmVectorVariable NAME="gCameraPosition" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE_0="0.000000" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="1.000000" MIN="-10.000000" MAX="10.000000" CLAMP="FALSE" NORMALIZE="FALSE"/>
    <Rm2DTextureVariable NAME="DiffuseMap" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="..\Objects\Surface\Map1.jpg" ORIGIN="0"/>

@@ -127,18 +127,20 @@ cSurfaceObject::~cSurfaceObject()
 
 void cSurfaceObject::Update()
 {
+	
+}
+void cSurfaceObject::Render()
+{
 	D3DXMATRIX mat, matView, matProj;
 	DEVICE->GetTransform(D3DTS_VIEW, &matView);
 	DEVICE->GetTransform(D3DTS_PROJECTION, &matProj);
 	mat = matView * matProj;
 	m_pShader->SetMatrix("matViewProjection", &mat);
-	
+
 	D3DXMatrixIdentity(&mat);
 	m_pShader->SetMatrix("matWorld", &mat);
 	m_pShader->SetTexture("DiffuseMap_Tex", m_pTex);
-}
-void cSurfaceObject::Render()
-{
+
 	UINT numPasses = 0;
 	m_pShader->Begin(&numPasses, NULL);
 	{

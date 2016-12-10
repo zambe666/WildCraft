@@ -2,7 +2,10 @@
 #include "cFrameworkTest.h"
 #include "cCamera.h"
 #include "cSurfaceObject.h"
+#include "cStaticObject.h"
+
 #include "cGrid.h"
+
 
 cFrameworkTest::cFrameworkTest()
 {
@@ -26,6 +29,8 @@ const HRESULT cFrameworkTest::Init(DWORD dwFlag)
 	
 	m_pSurface = new cSurfaceObject("Map1.raw","Map1.jpg",257,257,10,0.1f);
 	m_pSurface->SetPosition(D3DXVECTOR3(100,0,0));
+
+	//m_pStatic = new cStaticObject()
 	return S_OK;
 }
 void cFrameworkTest::Update()

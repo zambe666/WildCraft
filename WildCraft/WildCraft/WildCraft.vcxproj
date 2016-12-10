@@ -164,7 +164,7 @@
     <ClInclude Include="cPlayScene.h" />
     <ClInclude Include="cSceneManager.h" />
     <ClInclude Include="cShaderManager.h" />
-    <ClInclude Include="cStaticObejct.h" />
+    <ClInclude Include="cStaticObject.h" />
     <ClInclude Include="cStaticObjectManager.h" />
     <ClInclude Include="cSurfaceObject.h" />
     <ClInclude Include="cTextureManager.h" />
@@ -175,6 +175,7 @@
     <ClInclude Include="cUIManager.h" />
     <ClInclude Include="cUIObject.h" />
     <ClInclude Include="cUITextView.h" />
+    <ClInclude Include="OBJTOK.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -198,7 +199,7 @@
     <ClCompile Include="cPlayScene.cpp" />
     <ClCompile Include="cSceneManager.cpp" />
     <ClCompile Include="cShaderManager.cpp" />
-    <ClCompile Include="cStaticObejct.cpp" />
+    <ClCompile Include="cStaticObject.cpp" />
     <ClCompile Include="cStaticObjectManager.cpp" />
     <ClCompile Include="cSurfaceObject.cpp" />
     <ClCompile Include="cTextureManager.cpp" />
