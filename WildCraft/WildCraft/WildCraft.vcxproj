@@ -155,6 +155,7 @@
     <ClInclude Include="cFontManager.h" />
     <ClInclude Include="cFrameworkTest.h" />
     <ClInclude Include="cGameObject.h" />
+    <ClInclude Include="cGrid.h" />
     <ClInclude Include="cKeyManager.h" />
     <ClInclude Include="cMainGame.h" />
     <ClInclude Include="cMapCreateScene.h" />
@@ -163,6 +164,8 @@
     <ClInclude Include="cPlayScene.h" />
     <ClInclude Include="cSceneManager.h" />
     <ClInclude Include="cShaderManager.h" />
+    <ClInclude Include="cStaticObejct.h" />
+    <ClInclude Include="cStaticObjectManager.h" />
     <ClInclude Include="cSurfaceObject.h" />
     <ClInclude Include="cTextureManager.h" />
     <ClInclude Include="cTimeManager.h" />
@@ -186,6 +189,7 @@
     <ClCompile Include="cFontManager.cpp" />
     <ClCompile Include="cFrameworkTest.cpp" />
     <ClCompile Include="cGameObject.cpp" />
+    <ClCompile Include="cGrid.cpp" />
     <ClCompile Include="cKeyManager.cpp" />
     <ClCompile Include="cMainGame.cpp" />
     <ClCompile Include="cMapCreateScene.cpp" />
@@ -194,6 +198,8 @@
     <ClCompile Include="cPlayScene.cpp" />
     <ClCompile Include="cSceneManager.cpp" />
     <ClCompile Include="cShaderManager.cpp" />
+    <ClCompile Include="cStaticObejct.cpp" />
+    <ClCompile Include="cStaticObjectManager.cpp" />
     <ClCompile Include="cSurfaceObject.cpp" />
     <ClCompile Include="cTextureManager.cpp" />
     <ClCompile Include="cTimeManager.cpp" />

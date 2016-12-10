@@ -914,8 +914,8 @@
      <RmRegistryBranch NAME="RmPreviewDx9Window" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EffectPlacementRepository" API="" XML_VERSION="RenderMonkey 1.71">
        <RmRegistryBranch NAME="Effect Workspace.ShaderNormal" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="761" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="59" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="350" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="350" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -967,17 +967,17 @@
       <RmRegistryBranch NAME="Effect Workspace.ShaderNormal" API="" XML_VERSION="RenderMonkey 1.71">
        <RmRegistryBranch NAME="Disassembly" API="" XML_VERSION="RenderMonkey 1.71"/>
        <RmStringVariable NAME="Editing Shader" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-Pixel Shader]]></RmTextDataBlock></RmStringVariable>
+Vertex Shader]]></RmTextDataBlock></RmStringVariable>
        <RmStringVariable NAME="Editing Pass" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 Pass 0]]></RmTextDataBlock></RmStringVariable>
-       <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-8" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="650" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="650" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="367" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
       </RmRegistryBranch>
      </RmRegistryBranch>
      <RmRegistryBranch NAME="RmStreamEditor" API="" XML_VERSION="RenderMonkey 1.71">
@@ -985,7 +985,7 @@ Pass 0]]></RmTextDataBlock></RmStringVariable>
        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="596" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="152" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="641" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="228" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="214" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -998,78 +998,52 @@ Pass 0]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-8/12/2016 10:50:17]]></RmTextDataBlock></RmStringVariable>
+10/12/2016 9:43:37]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey 1.71]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="BASE_WORKSPACE_PATH" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-C:\Users\oh\Desktop\Hunt\HuntCraft\WildCraft\WildCraft\Shader\]]></RmTextDataBlock></RmStringVariable>
+C:\Users\oh\Desktop\WildCraft\WildCraft\WildCraft\WildCraft\Shader\]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
    </RmRegistryBranch>
   </RmRegistryBranch>
   <RmDirectXEffect NAME="ShaderNormal" API="D3D" ACTIVE_CAMERA="">
-   <RmMatrixVariable NAME="matViewProjection" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="ViewProjection" VALUE_0="1.498578" VALUE_1="-1.502984" VALUE_2="0.756646" VALUE_3="0.013643" VALUE_4="1.047376" VALUE_5="-0.050452" VALUE_6="-2.174600" VALUE_7="0.265239" VALUE_8="0.608448" VALUE_9="0.745488" VALUE_10="0.275757" VALUE_11="202678.125000" VALUE_12="0.607839" VALUE_13="0.744743" VALUE_14="0.275481" VALUE_15="202476.453125"/>
+   <RmMatrixVariable NAME="matViewProjection" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="ViewProjection" VALUE_0="0.679577" VALUE_1="2.120479" VALUE_2="-0.344893" VALUE_3="0.000003" VALUE_4="-1.856620" VALUE_5="0.808777" VALUE_6="1.314256" VALUE_7="0.000070" VALUE_8="0.564143" VALUE_9="-0.046519" VALUE_10="0.825580" VALUE_11="199.199265" VALUE_12="0.563579" VALUE_13="-0.046472" VALUE_14="0.824754" VALUE_15="200.000061"/>
    <RmMatrixVariable NAME="matWorld" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="World" VALUE_0="1.000000" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="0.000000" VALUE_4="0.000000" VALUE_5="1.000000" VALUE_6="0.000000" VALUE_7="0.000000" VALUE_8="0.000000" VALUE_9="0.000000" VALUE_10="1.000000" VALUE_11="0.000000" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="0.000000" VALUE_15="1.000000"/>
    <RmVectorVariable NAME="gCameraPosition" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE_0="0.000000" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="1.000000" MIN="-10.000000" MAX="10.000000" CLAMP="FALSE" NORMALIZE="FALSE"/>
-   <Rm2DTextureVariable NAME="DiffuseMap" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Textures\base.tga" ORIGIN="0"/>
+   <Rm2DTextureVariable NAME="DiffuseMap" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="..\Objects\Surface\Map1.jpg" ORIGIN="0"/>
    <RmStreamMap NAME="Stream Mapping" API="">
-    <RmStream NAME="Stream" API="" STRIDE="36">
-     <RmStreamChannel NAME="Position_0" API="" DATA_SIZE="16" DATA_TYPE="3" REGISTER="0" USAGE="0" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_Vertex"/>
+    <RmStream NAME="Stream" API="" STRIDE="20">
+     <RmStreamChannel NAME="Position_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="0" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_Vertex"/>
      <RmStreamChannel NAME="TexCoord_0" API="" DATA_SIZE="8" DATA_TYPE="1" REGISTER="0" USAGE="5" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_BlendWeight"/>
-     <RmStreamChannel NAME="Normal_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="3" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_BlendIndices"/>
     </RmStream>
    </RmStreamMap>
-   <RmModelData NAME="Model" API="" FILE_NAME="..\..\..\..\..\mine 2\Direct3DGame\obj\Map.obj" ORIENTATION="0"/>
+   <RmModelData NAME="Model" API="" FILE_NAME="..\..\..\..\..\..\..\..\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Models\Sphere.x" ORIENTATION="0"/>
    <RmPass NAME="Pass 0" API="D3D" PASS_INDEX="0" ENABLED="TRUE">
     <RmModelReference NAME="Model" API=""/>
-    <RmHLSLShader NAME="Vertex Shader" API="D3D" PIXEL_SHADER="FALSE" TARGET="vs_2_0" ENTRY_POINT="vs_main" COMPILER_FLAGS="0"><RmShaderCode TYPE="TEXT"><![CDATA[
-float4x4 matWorld;             // 월드 
+    <RmHLSLShader NAME="Vertex Shader" API="D3D" PIXEL_SHADER="FALSE" TARGET="vs_3_0" ENTRY_POINT="vs_main" COMPILER_FLAGS="0"><RmShaderCode TYPE="TEXT"><![CDATA[
 float4x4 matViewProjection;    // 뷰프로젝 
-
-int    gPointLightNum = 0;      // 점광원 개수
-float4 gPointLightPosition[4]; // 점광원 4개까지만 지원
-float4 gCameraPosition;         // 카메라 위치 
+float4x4 matWorld;
 
 struct VS_INPUT 
 {
    float4 mPosition : POSITION0;
    float2 mUV       : TEXCOORD0;
-   float3 mNormal   : NORMAL0; 
 };
 
 struct VS_OUTPUT 
 {
    float4 mPosition    : POSITION0;
-   float3 mUV          : TEXCOORD0;
-   float3 mViewDir     : TEXCOORD1;
-   float3 mDiffuse     : TEXCOORD2;
-   float3 mReflection  : TEXCOORD3;
-   float3 mWorldNormal : NORMAL0;
+   float2 mUV          : TEXCOORD0;
 };
 
 VS_OUTPUT vs_main( VS_INPUT Input )
 {
    VS_OUTPUT Output = (VS_OUTPUT)0;
-   
    Output.mPosition = mul(Input.mPosition, matWorld);
-   
-   // 월드 시점에서 판단 하자 
-   float3 worldNormal = mul(Input.mNormal, (float3x3)matWorld);
-   Output.mWorldNormal = normalize(worldNormal);
-   
-   float3 viewDir = Output.mPosition.xyz - gCameraPosition.xyz;
-   Output.mViewDir = normalize(viewDir);
-   
-   for(int i = 0; i< gPointLightNum; i++)      // 점광원 수만큼 
-   {
-     float3 lightDir = Output.mPosition.xyz - gPointLightPosition[i].xyz;
-     lightDir = normalize(lightDir);
-     
-     Output.mDiffuse += dot(- lightDir, Output.mWorldNormal);
-     Output.mReflection += reflect(lightDir, Output.mWorldNormal);
-   }
-   Output.mPosition = mul( Input.mPosition, matViewProjection );
+   Output.mPosition = mul(Output.mPosition, matViewProjection);
+   Output.mUV = Input.mUV;
    
    return( Output ); 
 }
@@ -1077,53 +1051,21 @@ VS_OUTPUT vs_main( VS_INPUT Input )
 
 
 ]]></RmShaderCode>
-     <RmShaderConstant NAME="gCameraPosition" API="" REGISTER="12"/>
-     <RmShaderConstant NAME="gPointLightNum" API="" REGISTER="11"/>
-     <RmShaderConstant NAME="gPointLightPosition" API="" REGISTER="4"/>
      <RmShaderConstant NAME="matViewProjection" API="" REGISTER="0"/>
-     <RmShaderConstant NAME="matWorld" API="" REGISTER="8"/>
     </RmHLSLShader>
-    <RmHLSLShader NAME="Pixel Shader" API="D3D" PIXEL_SHADER="TRUE" TARGET="ps_2_0" ENTRY_POINT="ps_main" COMPILER_FLAGS="0"><RmShaderCode TYPE="TEXT"><![CDATA[
-int    gDirLightNum = 0;      // 점광원 개수
-float3 gDirLightNormal[4];    // 직사광선 
-
+    <RmHLSLShader NAME="Pixel Shader" API="D3D" PIXEL_SHADER="TRUE" TARGET="ps_3_0" ENTRY_POINT="ps_main" COMPILER_FLAGS="0"><RmShaderCode TYPE="TEXT"><![CDATA[
 struct PS_INPUT
 {
-   float3 mUV       : TEXCOORD0;
-   float3 mViewDir : TEXCOORD1;
-   float3 mDiffuse : TEXCOORD2;
-   float3 mReflection: TEXCOORD3;
-   float3 mWorldNormal : NORMAL0;
+   float2 mUV       : TEXCOORD0;
 };
 
 sampler2D DiffuseSampler;
 
 float4 ps_main(PS_INPUT Input) : COLOR0
 {
-   float3 reflection = normalize(Input.mReflection);
-   float3 viewDir = normalize(Input.mViewDir);
-   
    float4 albedo = tex2D(DiffuseSampler, Input.mUV);
-   for(int i = 0; i<gDirLightNum; i++)
-   {
-      float3 dirLight = normalize(gDirLightNormal[i];
-      Input.mDiffuse += dot(- lightDir, Input.mWorldNormal);
-   }
-   float3 diffuse = albedo.rgb * saturate(Input.mDiffuse);
    
-   float3 specular = 0;
-   if(diffuse.x > 0)
-   {
-      specular = saturate(dot(reflection, -viewDir));
-      specular = pow(specular,20.0f);
-      
-      //float4 specularIntensity = tex2D(SpecularSampler, Input.mUV);
-      //specular *= specularIntensity.rgb * gLightColor);
-   }
-   float ambient = float3(0.1f,0.1f,0.1f) * albedo;
-   
-   return( float4( ambient + diffuse + specular, 1.0f ) );
-   
+   return( albedo );
 }
 
 
@@ -1134,9 +1076,6 @@ float4 ps_main(PS_INPUT Input) : COLOR0
     <RmStreamMapReference NAME="Stream Mapping" API=""/>
     <RmTextureObject NAME="DiffuseSampler" API="D3D" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
      <RmTextureReference NAME="DiffuseMap" API=""/>
-     <RmState NAME="D3DSAMP_MAGFILTER" API="D3D" STATE="5" VALUE="2" USAGE="SAMPLER_STATE"/>
-     <RmState NAME="D3DSAMP_MINFILTER" API="D3D" STATE="6" VALUE="2" USAGE="SAMPLER_STATE"/>
-     <RmState NAME="D3DSAMP_MIPFILTER" API="D3D" STATE="7" VALUE="1" USAGE="SAMPLER_STATE"/>
     </RmTextureObject>
    </RmPass>
   </RmDirectXEffect>

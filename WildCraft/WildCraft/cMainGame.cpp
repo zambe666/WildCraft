@@ -12,10 +12,10 @@ cMainGame::cMainGame()
 
 cMainGame::~cMainGame()
 {
-	OBJECT_MANAGER->Destroy();
 	TEXTURE_MANAGER->Destroy();
 	SHADER_MANAGER->Destroy();
 	SCENE_MANAGER->Destroy();
+	OBJECT_MANAGER->Destroy();
 	DEVICE_MANAGER->Destroy();
 }
 

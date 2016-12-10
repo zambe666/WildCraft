@@ -107,6 +107,12 @@
     <Filter Include="GameFramework\4. GameObjects\%2a Base">
       <UniqueIdentifier>{ab34631a-2bbf-421d-827b-4def52d12535}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameFramework\4. GameObjects\Grid">
+      <UniqueIdentifier>{ed7531bb-8945-478b-a4fe-b132f5a58dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\4. GameObjects\StaticObject">
+      <UniqueIdentifier>{1c0f8862-4799-48b5-adba-1e813122bbd8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Resource.h">
@@ -191,7 +197,14 @@
     <ClInclude Include="cGameObject.h">
       <Filter>GameFramework\4. GameObjects\%2a Base</Filter>
     </ClInclude>
-    <ClInclude Include="cSurfaceObject.h" />
+    <ClInclude Include="cSurfaceObject.h">
+      <Filter>GameFramework\4. GameObjects\SurfaceObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cGrid.h">
+      <Filter>GameFramework\4. GameObjects\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="cStaticObejct.h" />
+    <ClInclude Include="cStaticObjectManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -272,7 +285,14 @@
     <ClCompile Include="cGameObject.cpp">
       <Filter>GameFramework\4. GameObjects\%2a Base</Filter>
     </ClCompile>
-    <ClCompile Include="cSurfaceObject.cpp" />
+    <ClCompile Include="cSurfaceObject.cpp">
+      <Filter>GameFramework\4. GameObjects\SurfaceObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cGrid.cpp">
+      <Filter>GameFramework\4. GameObjects\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="cStaticObejct.cpp" />
+    <ClCompile Include="cStaticObjectManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="WildCraft.rc">

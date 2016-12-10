@@ -65,8 +65,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 			pMainGame->Render();
 		}
 	}
-	if (pMainGame) delete pMainGame;
-
+	SAFE_DELETE(pMainGame);
 
     return (int) msg.wParam;
 }
