@@ -34,7 +34,7 @@ const HRESULT cFrameworkTest::Init(DWORD dwFlag)
 	m_pTerrain = new cTerrainObject;
 	std::string texArray[3] = {
 		"./Objects/Surface/ground01.tga", "./Objects/Surface/ground02.tga", "./Objects/Surface/ground03.tga"};
-	m_pTerrain->Load("Map.raw", texArray, 1024, &D3DXVECTOR3(0.5f, 0.5f, 0.5f));
+	m_pTerrain->Load("Map.raw", texArray, 1024, &D3DXVECTOR3(1, 1, 1));
 
 	return S_OK;
 }

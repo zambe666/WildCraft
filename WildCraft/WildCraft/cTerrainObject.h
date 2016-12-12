@@ -19,7 +19,7 @@ private:
 	zQuadTree* AddChild(int nCornerTL, int nCornerTR, int nCornerBR, int nCornerBL);
 	bool SetCorners(int nCornerTL, int nCornerTR, int nCornerBR, int nCornerBL);
 	bool SubDivide();		// 律俺扁 荐青
-	bool IsVisible() { return (m_nCorner[CORNER_TR] - m_nCorner[CORNER_TL] != 1); }
+	bool IsVisible() { return (m_nCorner[CORNER_TR] - m_nCorner[CORNER_TL] <= 1); }
 	int GenTriIndex(int nTriangles, LPVOID pIndex);	// 牢郸胶 积己
 	void Destroy();
 public:

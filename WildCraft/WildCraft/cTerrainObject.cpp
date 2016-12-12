@@ -115,7 +115,10 @@ int zQuadTree::IsInFrusum(std::vector<std::vector<TerrainCell>>* heightMap, int 
 {
 	bool b[4];
 	bool bInSphere;
-	ST_SPHERE sphere((*heightMap)[m_nCorner[0] / Size][m_nCorner[0] %Size].vPos, m_fRadius, false);
+	ST_SPHERE sphere((*heightMap)[m_nCenter / Size][m_nCenter % Size].vPos, m_fRadius, false);
+	if (!FRUSTUM_CULLING->Intersect(&sphere)) return FRUSTUM_OUT;
+
+	sphere.vCenter = (*heightMap)[m_nCorner[0] / Size][m_nCorner[0] % Size].vPos;
 	b[0] = FRUSTUM_CULLING->Intersect(&sphere);
 	sphere.vCenter = (*heightMap)[m_nCorner[1] / Size][m_nCorner[1] % Size].vPos;
 	b[1] = FRUSTUM_CULLING->Intersect(&sphere);
