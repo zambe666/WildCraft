@@ -10,7 +10,8 @@ enum class eShaderType
 {
 	ST_NORMAL,			// 일반용
 	ST_WATER,			// 물
-	ST_XFILE			// Xfile용
+	ST_XFILE,			// Xfile용
+	ST_SKY
 };
 
 class cShaderManager

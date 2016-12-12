@@ -34,6 +34,11 @@ LPD3DXEFFECT cShaderManager::GetShader(eShaderType e)
 		//m_mapEffect[e] = LoadShaderXFILE("MultiAnimation.hpp");
 	}
 	break;
+	case eShaderType::ST_SKY:
+	{
+		m_mapEffect[e] = LoadShader(szFolderPath + "ShaderSky.fx");
+	}
+		break;
 	default:
 		break;
 	}

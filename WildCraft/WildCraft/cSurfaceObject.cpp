@@ -2,14 +2,20 @@
 #include "cSurfaceObject.h"
 
 
-cSurfaceObject::cSurfaceObject(std::string szHeightMapPath, std::string szTexturePath
-	, int numVertsPerRow, int numVertsPerCol, int cellSpacing, float heightScale)
-	: cGameObject::cGameObject()
+cSurfaceObject::cSurfaceObject() : cGameObject::cGameObject()
+{
+
+}
+
+void cSurfaceObject::Load(std::string szHeightMapPath, std::string szTexturePath
+	, int numVertsPerRow, int numVertsPerCol, float cellSpacing, float heightScale)
 {
 	std::string szTexPath = "./Objects/Surface/" + szTexturePath;
 	m_pTex = TEXTURE_MANAGER->GetTexture(szTexPath);
 
 	m_pShader = SHADER_MANAGER->GetShader(eShaderType::ST_NORMAL);
+
+
 
 	auto _numVertsPerRow = numVertsPerRow;
 	auto _numVertsPerCol = numVertsPerCol;
@@ -21,22 +27,37 @@ cSurfaceObject::cSurfaceObject(std::string szHeightMapPath, std::string szTextur
 	auto _numVertices = _numVertsPerRow * _numVertsPerCol;
 	auto _numTriangles = _numCellsPerRow * _numCellsPerCol * 2;
 
-
-
-
 	std::vector<BYTE> vecHeight(_numVertices);
 	FILE* _fp = nullptr;
 	std::string szHeightPath = "./Objects/Surface/" + szHeightMapPath;
 	fopen_s(&_fp, szHeightPath.c_str(), "rb");
 	fread_s(&vecHeight[0], sizeof(BYTE) * _numVertices, sizeof(BYTE), _numVertices, _fp);
 	fclose(_fp);
-	
+
+	m_vecTerrainCells.resize(_numVertsPerCol);
+	for (int i = 0; i < _numVertsPerCol; i++)
+	{
+		std::vector<TerrainCell> vecCell(_numVertsPerRow);
+		for (int j = 0; j < _numVertsPerRow; j++)
+		{
+			vecCell[j] = TerrainCell{ 
+				D3DXVECTOR3{static_cast<float>(j), 
+				static_cast<float>(vecHeight[i * _numVertsPerRow + j]) * heightScale , static_cast<float>(i) },
+				false };
+		}
+		m_vecTerrainCells[i] = vecCell;
+	}
+
+
 	CreateMyMesh(_numTriangles, _numVertices);
 
 	auto startX = -_width / 2;
 	auto startZ = _depth / 2;
 	auto endX = _width / 2;
 	auto endZ = - _depth / 2;
+	m_vSize[0] = { startX, 0, startZ};
+	m_vSize[1] = {endX, 0, endZ};
+
 	auto uCoordIncrementSize = 1.0f / static_cast<float>(_numCellsPerRow);
 	auto vCoordIncrementSize = 1.0f / static_cast<float>(_numCellsPerCol);
 
@@ -45,15 +66,14 @@ cSurfaceObject::cSurfaceObject(std::string szHeightMapPath, std::string szTextur
 	{
 		auto data = static_cast<float*>(vertexData);
 		int i = 0;
-		for (int z = startZ; z >= endZ; z -= _cellSpacing)
+		for (float z = startZ; z >= endZ; z -= _cellSpacing)
 		{
 			int j = 0;
-			for (int x = startX; x <= endX; x += _cellSpacing)
+			for (float x = startX; x <= endX; x += _cellSpacing)
 			{			
-				auto index = i * _numVertsPerRow + j;
-				*data++ = x  + m_vPosition.x;
-				*data++ = (static_cast<float>(vecHeight[index]) * heightScale) + m_vPosition.y;
-				*data++ = z + m_vPosition.z;
+				*data++ = x;
+				*data++ = m_vecTerrainCells[i][j].vPos.y;
+				*data++ = z;
 				*data++ = j* uCoordIncrementSize;
 				*data++ = i* vCoordIncrementSize;
 				j++;
@@ -77,6 +97,7 @@ cSurfaceObject::cSurfaceObject(std::string szHeightMapPath, std::string szTextur
 				*ind++ = (i + 1) * _numVertsPerRow + j;
 				*ind++ = i * _numVertsPerRow + j + 1;
 				*ind++ = (i + 1) * _numVertsPerRow + j + 1;
+				
 			}
 		}
 	}
@@ -137,7 +158,11 @@ void cSurfaceObject::Render()
 	mat = matView * matProj;
 	m_pShader->SetMatrix("matViewProjection", &mat);
 
-	D3DXMatrixIdentity(&mat);
+	D3DXMATRIX matT, matR;
+	D3DXMatrixLookAtLH(&matR, &D3DXVECTOR3(0, 0, 0), &m_vDirection, &D3DXVECTOR3(0, 1, 0));
+	D3DXMatrixTranspose(&matR, &matR);
+	D3DXMatrixTranslation(&matT, m_vPosition.x, m_vPosition.y, m_vPosition.z);
+	mat = matR * matT;
 	m_pShader->SetMatrix("matWorld", &mat);
 	m_pShader->SetTexture("DiffuseMap_Tex", m_pTex);
 
@@ -154,4 +179,16 @@ void cSurfaceObject::Render()
 		}
 	}
 	m_pShader->End();
+}
+
+
+bool cSurfaceObject::GetHeight(float x, float& y, float z)
+{
+	float _x = x - m_vPosition.x;
+	float _z = z - m_vPosition.z;
+	if (m_vSize[0].x < _x && m_vSize[1].x > _x && m_vSize[0].z < _z && m_vSize[1].z > _z)
+	{
+		
+	}
+	return false;
 }

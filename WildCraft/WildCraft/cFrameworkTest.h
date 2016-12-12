@@ -1,17 +1,16 @@
 #pragma once
-
 class cGrid;
-class cCamera;
-class cSurfaceObject;
-class cStaticObject;
+class cCameraEx;
+class cTerrainObject;
+class cSkyDome;
 
 class cFrameworkTest : public iSceneNode
 {
 private:
-	cGrid*			m_pGrid;
-	cCamera*		m_pMainCamera;
-	cSurfaceObject* m_pSurface;
-	cStaticObject*  m_pStatic;
+	cGrid* m_pGrid;
+	cCameraEx* m_pCamera;
+	cTerrainObject* m_pTerrain;
+	cSkyDome*	m_pSky;
 public:
 	const HRESULT Init(DWORD dwFlag) override;
 	void Update() override;

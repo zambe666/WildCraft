@@ -47,7 +47,7 @@ const HRESULT cMainGame::Init()
 	scene = new cFrameworkTest;
 	SCENE_MANAGER->AddScene("TestScene", scene);
 
-	SCENE_MANAGER->ChangeScene("TitleScene");
+	SCENE_MANAGER->ChangeScene("TestScene");
 
 	return S_OK;
 }

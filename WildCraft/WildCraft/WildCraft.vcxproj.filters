@@ -113,6 +113,45 @@
     <Filter Include="GameFramework\4. GameObjects\StaticObject">
       <UniqueIdentifier>{1c0f8862-4799-48b5-adba-1e813122bbd8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameFramework\3. Control\Actions">
+      <UniqueIdentifier>{236a10db-5924-47c4-bbea-f9f83dabe9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\3. Control\Culling">
+      <UniqueIdentifier>{3e68d999-8a59-43b0-989d-65b922aaabac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\3. Control\Picking">
+      <UniqueIdentifier>{d9dc45fb-18cc-457b-9e5b-d396d72d9f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\3. Control\WayFinder">
+      <UniqueIdentifier>{dc7c4596-6dbe-4de5-b3c7-d4fd63f3de55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\4. GameObjects\DynamicObject">
+      <UniqueIdentifier>{f834843d-5b5d-4c76-9a8c-c17768b672ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\4. GameObjects\StaticObject\Manager">
+      <UniqueIdentifier>{3b2b5dbc-7782-4824-8e7e-79d4b19e36d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\4. GameObjects\StaticObject\%2aBase">
+      <UniqueIdentifier>{e974d5b4-feb5-40e9-a8a2-d1f1045c94dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\4. GameObjects\StaticObject\상속받아서 세부 속성 넣음">
+      <UniqueIdentifier>{c018505f-1e90-4b7b-a919-7f209a9ad380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\2. Managers\GameManager\LightManager">
+      <UniqueIdentifier>{96c58b08-fb7e-471e-92c5-96dd9800ddcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\3. Control\Controller">
+      <UniqueIdentifier>{9f65f1ec-1d75-4257-b446-b3f6a1a5ef52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\4. GameObjects\DynamicObject\%2aBase">
+      <UniqueIdentifier>{cbb3bc35-52b9-4836-b9e8-a05ee2c35723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\4. GameObjects\DynamicObject\Manager">
+      <UniqueIdentifier>{d90d3d9e-a36e-4950-9f0b-affd22190247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\4. GameObjects\SkyDome">
+      <UniqueIdentifier>{4e159a40-7f2c-4e8b-b7b8-32004e5bec7f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Resource.h">
@@ -197,21 +236,35 @@
     <ClInclude Include="cGameObject.h">
       <Filter>GameFramework\4. GameObjects\%2a Base</Filter>
     </ClInclude>
-    <ClInclude Include="cSurfaceObject.h">
-      <Filter>GameFramework\4. GameObjects\SurfaceObject</Filter>
-    </ClInclude>
     <ClInclude Include="cGrid.h">
       <Filter>GameFramework\4. GameObjects\Grid</Filter>
     </ClInclude>
+    <ClInclude Include="cSurfaceObject.h">
+      <Filter>GameFramework\4. GameObjects\SurfaceObject</Filter>
+    </ClInclude>
     <ClInclude Include="cStaticObjectManager.h">
-      <Filter>GameFramework\4. GameObjects\StaticObject</Filter>
+      <Filter>GameFramework\4. GameObjects\StaticObject\Manager</Filter>
     </ClInclude>
     <ClInclude Include="cStaticObject.h">
-      <Filter>GameFramework\4. GameObjects\StaticObject</Filter>
+      <Filter>GameFramework\4. GameObjects\StaticObject\%2aBase</Filter>
     </ClInclude>
     <ClInclude Include="OBJTOK.h">
-      <Filter>GameFramework\4. GameObjects\StaticObject</Filter>
+      <Filter>GameFramework\4. GameObjects\StaticObject\Manager</Filter>
     </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>GameFramework\2. Managers\GameManager\LightManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cController.h">
+      <Filter>GameFramework\3. Control\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrainObject.h">
+      <Filter>GameFramework\4. GameObjects\SurfaceObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkyDome.h" />
+    <ClInclude Include="cFrustumCulling.h">
+      <Filter>GameFramework\3. Control\Culling</Filter>
+    </ClInclude>
+    <ClInclude Include="cCameraEx.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -292,18 +345,32 @@
     <ClCompile Include="cGameObject.cpp">
       <Filter>GameFramework\4. GameObjects\%2a Base</Filter>
     </ClCompile>
-    <ClCompile Include="cSurfaceObject.cpp">
-      <Filter>GameFramework\4. GameObjects\SurfaceObject</Filter>
-    </ClCompile>
     <ClCompile Include="cGrid.cpp">
       <Filter>GameFramework\4. GameObjects\Grid</Filter>
     </ClCompile>
+    <ClCompile Include="cSurfaceObject.cpp">
+      <Filter>GameFramework\4. GameObjects\SurfaceObject</Filter>
+    </ClCompile>
     <ClCompile Include="cStaticObjectManager.cpp">
-      <Filter>GameFramework\4. GameObjects\StaticObject</Filter>
+      <Filter>GameFramework\4. GameObjects\StaticObject\Manager</Filter>
     </ClCompile>
     <ClCompile Include="cStaticObject.cpp">
-      <Filter>GameFramework\4. GameObjects\StaticObject</Filter>
+      <Filter>GameFramework\4. GameObjects\StaticObject\%2aBase</Filter>
     </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>GameFramework\2. Managers\GameManager\LightManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cController.cpp">
+      <Filter>GameFramework\3. Control\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrainObject.cpp">
+      <Filter>GameFramework\4. GameObjects\SurfaceObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkyDome.cpp" />
+    <ClCompile Include="cFrustumCulling.cpp">
+      <Filter>GameFramework\3. Control\Culling</Filter>
+    </ClCompile>
+    <ClCompile Include="cCameraEx.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="WildCraft.rc">

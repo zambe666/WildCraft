@@ -54,7 +54,7 @@
 //#include "cGameDataManager.h"
 #include "cSceneManager.h"
 #include "cUIManager.h"
-
+#include "cFrustumCulling.h"
 
 
 
